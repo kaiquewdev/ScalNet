@@ -44,18 +44,18 @@
     </distributionManagement>
 	-->
 
-	<distributionManagement>
-		<repository>
-			<id>bintray-deeplearning4j-maven</id>
-			<name>Deeplearning4j-maven</name>
-			<url>https://api.bintray.com/maven/deeplearning4j/maven/${project.artifactId}/;publish=1</url>
-		</repository>
-		<snapshotRepository>
-			<id>snapshots</id>
-			<name>local-snapshots</name>
-			<url>http://localhost:8081/artifactory/libs-snapshot-local</url>
-		</snapshotRepository>
-	</distributionManagement>
+  <distributionManagement>
+    <repository>
+      <id>bintray-deeplearning4j-maven</id>
+      <name>Deeplearning4j-maven</name>
+      <url>${BINTRAY_MAVEN}/${project.artifactId}/;publish=1</url>
+    </repository>
+    <snapshotRepository>
+      <id>snapshots</id>
+      <name>local-snapshots</name>
+      <url>${ARTFACT_URL}/${ARTFACT_SNAPSHOT}</url>
+    </snapshotRepository>
+  </distributionManagement>
 
   <properties>
     <!-- base versions -->
