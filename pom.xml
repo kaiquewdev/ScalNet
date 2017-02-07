@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.deeplearning4j</groupId>
   <artifactId>scalnet_${scala.binary.version}</artifactId>
-  <version>0.7.2</version>
+  <version>0.7.2-SNAPSHOT</version>
 
   <name>ScalNet</name>
   <description>A Scala wrapper for Deeplearning4j, inspired by Keras. Scala + DL + Spark + GPUs</description>
