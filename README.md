@@ -1,3 +1,4 @@
+:)
 # ScalNet
 
 ScalNet is a wrapper around deeplearning4j emulating a [keras](https://github.com/fchollet/keras) like api for deep learning.
